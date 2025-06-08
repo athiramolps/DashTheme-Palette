@@ -139,7 +139,7 @@ elif final_theme:
 # Note
 st.markdown("""
     <p style='margin-top:30px; color:gray;'>
-        <strong>NB:</strong> Some services may choose to follow their brand colors instead of the theme-recommended palette.
+        <strong>NB:</strong> Some services may choose to follow their brand colors instead of the industry-recommended palette.
     </p>
 """, unsafe_allow_html=True)
 
