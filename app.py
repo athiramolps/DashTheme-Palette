@@ -17,7 +17,7 @@ col1, col2 = st.columns([2, 1])
 with col1:
     theme_input = st.text_input("Type an industry like 'Healthcare', 'Retail', etc.").strip().lower()
 with col2:
-    theme_dropdown = st.selectbox("Or select a theme:", options=[
+    theme_dropdown = st.selectbox("Or select an Industry:", options=[
         "Advertising", "Aerospace", "Agriculture", "Air Pollution", "Arms",
         "Automotive Industry", "Broadcasting", "Chemical", "Computer",
         "Construction", "Creative", "Cultural", "Defense", "Democracy", "Design",
