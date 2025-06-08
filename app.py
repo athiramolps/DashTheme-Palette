@@ -7,12 +7,12 @@ st.set_page_config(page_title="DashTheme Palette", layout="wide")
 st.markdown("""
     <h1 style='text-align: center; color: #9C27B0;'>🎨 DashTheme Palette</h1>
     <p style='text-align: center; font-size: 18px;'>
-        An intelligent color recommender app for dashboards and branding based on your selected theme or industry.
+        An intelligent color recommender app for dashboards and branding based on your selected industry.
     </p>
 """, unsafe_allow_html=True)
 
 # Theme input
-st.write("### Enter a Theme or Choose from the Dropdown:")
+st.write("### Enter an Industry or Choose from the Dropdown:")
 col1, col2 = st.columns([2, 1])
 with col1:
     theme_input = st.text_input("Type a theme like 'Healthcare', 'Retail', etc.").strip().lower()
