@@ -15,7 +15,7 @@ st.markdown("""
 st.write("### Enter an Industry or Choose from the Dropdown:")
 col1, col2 = st.columns([2, 1])
 with col1:
-    theme_input = st.text_input("Type a theme like 'Healthcare', 'Retail', etc.").strip().lower()
+    theme_input = st.text_input("Type an industry like 'Healthcare', 'Retail', etc.").strip().lower()
 with col2:
     theme_dropdown = st.selectbox("Or select a theme:", options=[
         "Advertising", "Aerospace", "Agriculture", "Air Pollution", "Arms",
