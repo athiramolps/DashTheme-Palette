@@ -145,6 +145,11 @@ st.markdown("""
 
 # Footer
 st.markdown("""
-    <hr>
-    <p style='text-align: center; color:gray;'>Designed by Athiramol PS</p>
+    <hr style="margin-top: 50px;">
+    <div style="text-align: center; font-size: 14px; color: gray;">
+        © All rights reserved by <strong>Athiramol PS</strong><br>
+        Published on: <strong>June 7, 2025</strong><br>
+        This project, “<em>DashTheme Palette: A Practical Extension of Color Psychology in Dashboard Design</em>,” is an original creation by Athiramol PS.  
+        The concept, design, dataset, and interface are protected under applicable copyright laws.
+    </div>
 """, unsafe_allow_html=True)
